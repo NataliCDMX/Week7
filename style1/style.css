@@ -1,8 +1,7 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    width: 100%;
 }
 
 .cell {
@@ -29,18 +28,14 @@
 
 .header {
     grid-area: header;
-    justify-self: center;
-    align-self: center;
-    padding: 10px;
     background: #D8BF95;
+    padding: 10px;
 }
 
 .nav {
     grid-area: nav;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    justify-self: center;
-    align-self: center;
     padding: 30px;
     background: #F1F1F1
 }
